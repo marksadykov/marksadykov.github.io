@@ -1,0 +1,372 @@
+@font-face {
+    font-family: GothaProMedIta;
+    src: url(fonts/GothaProMedIta.otf);
+}
+
+@font-face {
+    font-family: GothaProMed;
+    src: url(fonts/GothaProMed.otf);
+}
+
+@font-face {
+    font-family: GothaProLig;
+    src: url(fonts/GothaProLig.otf);
+}
+
+@font-face {
+    font-family: GothaProLigIta;
+    src: url(fonts/GothaProLigIta.otf);
+}
+
+@font-face {
+    font-family: GothaProReg;
+    src: url(fonts/GothaProReg.otf);
+}
+
+body{
+    background: #ffffff;
+}
+
+@media screen and (min-width: 576px){
+    body{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    body{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (min-width: 576px){
+    div.page{
+        padding-top: 70px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    div.page{
+        padding-top: 20px;
+    }
+}
+
+div.side-columns-left{
+    float: left;
+    padding: 0px;
+}
+
+@media screen and (max-width: 575px){
+    div.side-columns-left{
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        width: 70%;
+        background: rgba(247, 247, 247, 0.85);
+        backdrop-filter: blur(14px);
+        height: 100vh;
+    }
+}
+
+.side-columns-right{
+    padding: 0px;
+}
+
+div.upline-left{
+    padding: 0px;
+}
+
+@media screen and (min-width: 576px){
+    .rect-menu{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .back{
+        display: none;
+    }
+}
+
+.mid-rect{
+    width: 20px;
+    height: 2px;
+    background: #000000;
+    margin-bottom: 6px;
+}
+
+.big-rect{
+    width: 25px;
+    height: 2px;
+    background: #000000;
+    margin-bottom: 6px;
+}
+
+.small-rect{
+    width: 15px;
+    height: 2px;
+    background: #000000;
+}
+
+.cross{
+    display: none;
+    margin-bottom: 60px;
+}
+
+div.upline-left span{
+    font-family: GothaProMedIta;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.3;
+}
+
+div.upline-right{
+    padding: 0px;
+    float: right;
+
+}
+
+div.upline-right div.label-group{
+    float: right;
+}
+
+div.label-group{
+    font-family: GothaProMed;
+    line-height: 100%;
+}
+
+div.label-group span.up{
+    font-size: 26px;
+}
+
+
+div.label-group span.down{
+    font-size: 12px;
+    text-align: center;
+    display: block;
+}
+
+@media screen and (min-width: 576px){
+    div.content{
+        margin-top: 72px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    div.content{
+        margin-top: 30px;
+    }
+}
+
+ul.menu{
+    font-family: GothaProLig;
+    font-size: 12px;
+    line-height: 11px;
+    color: #000000;
+    list-style-type: none;
+    padding: 0px;
+    position: fixed;
+}
+
+ul.menu li{
+    margin-bottom: 33px;
+}
+
+@media screen and (min-width: 760px) {
+    ul.menu li:hover{
+        font-size: 42px;
+        font-family: GothaProMedIta;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 759px) {
+    ul.menu li:hover{
+        font-size: 20px;
+        font-family: GothaProMedIta;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    ul.menu li:hover{
+        font-size: 42px;
+        font-family: GothaProMedIta;
+    }
+}
+
+@media screen and (min-width: 1660px) {
+    div.img-box img{
+        height: 539px;
+        width: 378px;
+    }
+}
+
+@media screen and (min-width: 1340px) and (max-width: 1659px) {
+    div.img-box img{
+        height: 423px;
+        width: 296px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1339px) {
+    div.img-box img{
+        height: 367px;
+        width: 257px;
+    }
+}
+
+@media screen and (min-width: 930px) and (max-width: 1199px) {
+    div.img-box img{
+        height: 275px;
+        width: 193px;
+    }
+}
+
+@media screen and (min-width: 430px) and (max-width: 929px) {
+    div.img-box img{
+        height: 149px;
+        width: 105px;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 429px) {
+    div.img-box img{
+        height: 136px;
+        width: 95px;
+    }
+}
+
+@media screen and (min-width: 340px) and (max-width: 389px) {
+    div.img-box img{
+        height: 123px;
+        width: 86px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 339px) {
+    div.img-box img{
+        height: 102px;
+        width: 72px;
+    }
+}
+
+@media screen and (max-width: 319px) {
+    div.img-box img{
+        height: 51px;
+        width: 36px;
+    }
+}
+
+.img-box{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.name-label{
+    line-height: 100%;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+p.name-label .name-label-up{
+    font-family: GothaProMedIta;
+}
+
+p.name-label .name-label-down{
+    font-family: GothaProLigIta;
+}
+
+div.img-block{
+    margin-bottom: 40px;
+}
+
+div.downline-left{
+    padding: 0px;
+    font-family: GothaProMed;
+    font-size: 12px;
+}
+
+.downline-left-en{
+    color: #000000;
+}
+
+.downline-left-ru{
+    color: #000000;
+    opacity: 0.3;
+}
+
+.downline-left-2020{
+    font-family: GothaProReg;
+    font-size: 12px;
+    color: #000000;
+}
+
+div.downline-right{
+    padding: 0px;
+}
+
+div.downline-right div.menu-down{
+    font-family: GothaProReg;
+    font-size: 12px;
+    color: #000000;
+}
+
+div.menu-down div{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 575px){
+    div.downline-right{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px){
+    div.downline-right{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    div.downline{
+        margin-top: 70px;
+    }
+}
+
+div.downline{
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px){
+    div.horizontal{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px){
+    div.horizontal{
+        height: 1px;
+        background: #EDEDED;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+}
+
+button{
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+
+div.downline-left-menu{
+    padding: 0px;
+    font-family: GothaProMed;
+    font-size: 12px;
+    display: none;
+}
