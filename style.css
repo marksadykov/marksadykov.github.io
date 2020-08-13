@@ -113,6 +113,8 @@ div.upline-left{
 .cross{
     display: none;
     margin-bottom: 60px;
+    color: #000000;
+    margin-top: 10px;
 }
 
 div.upline-left span{
@@ -170,6 +172,12 @@ ul.menu{
     list-style-type: none;
     padding: 0px;
     position: fixed;
+}
+
+@media screen and (max-width: 575px){
+    ul.menu{
+        margin-left: 15px;
+    }
 }
 
 ul.menu li{
